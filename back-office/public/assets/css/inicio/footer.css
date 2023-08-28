@@ -7,7 +7,12 @@
 .logo-footer{
     width: 180px;
 }
-/* .rede-social{
-    
-   
-} */
+.rede-social{
+    width: 60px;
+    height: 60px;
+    background-color: #222326;
+    border: none;
+}
+.icone-redes{
+    font-size: 40px;
+}
