@@ -1,0 +1,24 @@
+.footer{
+    background-color: #00000064;
+}
+
+.logo-footer{
+    width: 12rem;
+}
+.rede-social{
+    width: 4rem;
+    height: 4rem;
+    background-color: #222326;
+    border: none;
+}
+.icone-redes{
+    font-size: 260%;
+}
+
+.copyright {
+    color: #49494A;
+}
+
+.me-6{
+    margin-right: 6rem ;
+}

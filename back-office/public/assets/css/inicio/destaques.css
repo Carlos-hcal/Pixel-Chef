@@ -1,0 +1,21 @@
+.destaques{
+    background: #ffffff ;
+    border-top:solid 4px #0C1033;
+    border-bottom:solid 4px #0C1033;
+}
+.destaque{
+}
+
+
+
+/* CAROUSEL */
+.carousel-indicators [data-bs-target]{
+    background-color: #0C1033;
+}
+
+.carousel-inner img {
+    border-radius: 50%;
+    max-width: 30%;
+    height: auto;
+    margin-bottom: 4%;
+}

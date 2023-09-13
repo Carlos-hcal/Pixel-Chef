@@ -3,74 +3,150 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
+    <meta name="" >
     <!-- Bootstrap - css -->
     <link rel="stylesheet" type="text/css" href="../public/assets/bootstrap-5/css-bootstrap/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="../public/assets/bootstrap-5/css-bootstrap/bootstrap-grid.min.css">
     <link rel="stylesheet" type="text/css" href="../public/assets/bootstrap-5/css-bootstrap/bootstrap-utilities.min.css">
     
      <!-- CSS -->
-    <link rel="stylesheet" href="/back-office/public/assets/css/global.css">
-    <link rel="stylesheet" href="/back-office/public/assets/css/reset.css">
-    <link rel="stylesheet" href="/back-office/public/assets/css/inicio/containerd.css">
-    <link rel="stylesheet" href="/back-office/public/assets/css/inicio/header.css">
-    <link rel="stylesheet" href="/back-office/public/assets/css/inicio/footer.css">
+    <link rel="stylesheet" type="text/css" href="/back-office/public/assets/css/global/global.css">
+    <link rel="stylesheet" type="text/css" href="/back-office/public/assets/css/global/reset.css">
+    <link rel="stylesheet" type="text/css" href="/back-office/public/assets/css/global/header.css">
+    <link rel="stylesheet" type="text/css" href="/back-office/public/assets/css/inicio/containerd.css">
+    <link rel="stylesheet" type="text/css" href="/back-office/public/assets/css/inicio/destaques.css">
+    <link rel="stylesheet" type="text/css" href="/back-office/public/assets/css/inicio/dormindo.css">
+    <link rel="stylesheet" type="text/css" href="/back-office/public/assets/css/global/footer.css">
+
+    <!-- SASS -->
+    <link rel="stylesheet" href="/back-office/public/assets/Sass/all.sass
+    ">
 
   <!-- FONT - AWESOME -->
 <link rel="stylesheet" href="../public/assets/css/font-awesome/all.min.css">
 
 
-    <title>Pixel Chef - Home</title>
+    <title>Pixel Chef - Inicio</title>
 </head>
 <body>
     <div class="container-fluid">
         <div class="row">
             <div class="col-12">
+
+              <!-- NAVBAR - INICIO -->
                 <header class="header border-bottom border-3 border-white">
-                    <nav class=" ps-5 pe-5 navbar navbar-expand-lg">
-                          <a class="logo ms-5 navbar-brand" href="#">
+                    <nav class=" navbar navbar-expand-lg">
+                          <a class="logo ms-4  navbar-brand" href="#">
                            <img class="mb-0 figure-img img-fluid" src="/back-office/public/assets/img/Logo.svg" alt="">
                           </a>
                           <button class="border-white border-2 sanduiche me-5 navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon icon-bar"></span>
                           </button>
                         <div class="justify-content-end me-5 collapse navbar-collapse" id="navbarSupportedContent">
-                          <ul class="navbar-nav">
+                          <ul class="navbar-nav nav-underline">
                             <li class="nav-item ">
-                              <a class="text-light nav-link link-underline-light  active" aria-current="page" href="inicio.html">INICIO</a>
+                              <a class="text-light nav-link active" aria-current="page" href="inicio.html">INICIO</a>
                             </li>
                             <li class=" nav-item">
-                              <a class="text-light nav-link active ms-5" aria-current="page" href="player.html">PLAYER</a>                  
+                              <a class="text-light nav-link ms-5" aria-current="page" href="player.html">PLAYER</a>                  
                             </li>
                             <li class=" nav-item dropdown">
-                              <a class="text-light nav-link active ms-5" aria-current="page" href="projeto.html">PROJETOS</a>                      
+                              <a class="text-light nav-link ms-5" aria-current="page" href="projeto.html">PROJETOS</a>                      
                             </li>
                             <li class=" nav-item">
-                              <a class="text-light nav-link active ms-5" aria-current="page" href="contato.html">CONTATO</a>                 
+                              <a class="text-light nav-link ms-5" aria-current="page" href="contato.html">CONTATO</a>                 
                            </li>
                           </ul>
                         </div>
                     </nav>
               </header>
+              <!-- NAVBAR - FIM  -->
           
-              <section class="containerd container-fluid">
+              <!-- CONTAINER UM - INICIO  -->
+              <section class="containerd pt-5 pe-5 container-fluid">
                       <div class="row">
                           <div class="col-12">
-                              <a class="nerd" href="#">
-                                <img class="figure-img img-fluid" src="/back-office/public/assets/img/nerd.svg" alt="">
+                            <div class="saudações pt-5 text-start ps-5">
+                              <h1 class="font-monospace fw-bold">Saudações</h1>
+                              <h2 class="fw-bold font-monospace lh-lg"> bem vindos ao nosso site! <br> Me chamo Carlos, sou criador do Pixel Chef. Aqui apresento um <br> pouco do meu trabalho e hobbies ...</h2>
+                              <a class="play btn btn-large fw-bold pe-5 ps-5" type="button">PLAY</a>
+                            </div>
+                            <div class=" text-end">
+                              <a href="#">
+                                <img class="nerd me-5 mb-0figure-img img-fluid" src="/back-office/public/assets/img/nerd.svg" alt="#">
                               </a>
+                            </div>
                           </div>
                       </div>
               </section>
-          
-              <section>
-          
+              <!-- CONTAINER UM - FIM  -->
+              
+              <!-- CONTAINER DOIS - INICIO  -->
+              <div class="destaques text-center container-fluid ">
+                <div class="row">
+                  <div class="col-12">
+                    <h1 class="fw-bold">Destaques</h1>
+                    <div id="myCarousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <!-- Indicators -->
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></button>
+                            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1"></button>
+                            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2"></button>
+                        </div>
+                
+                        <!-- Slides -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <a class="me-2" href="pagina1.html"><img src="/back-office/public/assets/img/Root.svg" alt="Root"></a>
+                                <a class="" href="pagina2.html"><img  src="/back-office/public/assets/img/Hollow Knight.svg" alt="HK"></a>
+                                <a class="ms-2" href="pagina3.html"><img src="/back-office/public/assets/img/Smart Universe.svg" alt="SM"></a>
+                            </div>
+                            <div class="carousel-item ">
+                                <a class="me-2" href="pagina1.html"><img src="/back-office/public/assets/img/Pixelchefimg.svg" alt="HK"></a>
+                                <a class="" href="pagina2.html"><img src="/back-office/public/assets/img/Em breve.svg" alt="HK"></a>
+                                <a class="ms-2" href="pagina3.html"><img src="/back-office/public/assets/img/Em breve.svg" alt="HK"></a>
+                            </div>
+                            <div class="carousel-item">
+                                <a class="me-2" href="pagina1.html"><img src="/back-office/public/assets/img/Em breve.svg" alt="SM"></a>
+                                <a class="" href="pagina2.html"><img src="/back-office/public/assets/img/Em breve.svg" alt="SM"></a>
+                                <a class="ms-2" href="pagina3.html"><img src="/back-office/public/assets/img/Em breve.svg" alt="SM"></a>
+                            </div>
+                        </div>
+                
+                        <!-- Controls -->
+                        <a class="mb-2 carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </a>
+                        <a class="mb-2 carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Próximo</span>
+                        </a>
+                    </div>
+                </div>
+                  </div>
+                </div>
+                <!-- CONTAINER DOIS - FIM  -->
+
+                <!-- CONTAINER TRÊS - INICIO  -->
+              <section class="dormindo pt-3 container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                      <div class="text-end me-5 col-6">
+                        <h2 class="fw-bold">Eu realmente não faço ideia do que escrever aqui, mas eu <br> tenho certeza que alguma hora vamos achar alguma <br> coisa muito interessante, que chame muita atenção. </h2>
+                      </div>
+                        <div class="text-start col-6">
+                          <a href="#">
+                            <img class="dormiu ms-5 mb-0 figure-img img-fluid" src="/back-office/public/assets/img/dormindo.svg" alt="#">
+                          </a>
+                        </div>
+                    </div>
+                </div>
               </section>
-          
-              <section>
-          
-              </section>
-              <footer>
+                <!-- CONTAINER TRÊS - FIM  -->
+
+                <!-- FOOTER - INICIO -->
+              <footer class="">
                       <div class="row">
                         <div class="col-12">
                           <div class="footer p-5 card-footer border-top border-2 border-white text-center">
@@ -80,36 +156,37 @@
                              <div class="" >
                               <ul class="mt-3 navbar-nav list-group-horizontal justify-content-center">
                                 <li class="nav-item ">
-                                  <a class="text-light nav-link  active " aria-current="page" href="inicio.html">INICIO</a>
+                                  <a class="text-light nav-link " aria-current="page" href="inicio.html">INICIO</a>
                                 </li>
                                 <li class=" nav-item">
-                                  <a class="text-light nav-link active ms-5" aria-current="page" href="player.html">PLAYER</a>                  
-                                </li>
-                                <li class=" nav-item dropdown">
-                                  <a class="text-light nav-link active ms-5" aria-current="page" href="projeto.html">PROJETOS</a>                      
+                                  <a class="text-light nav-link ms-4" aria-current="page" href="player.html">PLAYER</a>                  
                                 </li>
                                 <li class=" nav-item">
-                                  <a class="text-light nav-link active ms-5" aria-current="page" href="contato.html">CONTATO</a>                 
+                                  <a class="text-light nav-link ms-4" aria-current="page" href="projeto.html">PROJETOS</a>                      
+                                </li>
+                                <li class=" nav-item">
+                                  <a class="text-light nav-link ms-4" aria-current="page" href="contato.html">CONTATO</a>                 
                                </li>
                               </ul>
                               <div class="mt-5 navbar-nav list-group-horizontal justify-content-center">
-                                <a class="rede-social btn btn-primary rounded-circle me-5" href="#" role="button"><i class="icone-redes mt-1 fa-brands fa-linkedin"></i></a>
+                                <a class="rede-social btn btn-primary rounded-circle me-4" href="#" role="button"><i class="icone-redes mt-1 fa-brands fa-linkedin"></i></a>
                                 <a class="rede-social btn btn-primary rounded-circle" href="#" role="button"><i class="icone-redes mt-1 fa-brands fa-github"></i></a>
-                                <a class="rede-social btn btn-primary rounded-circle ms-5" href="#" role="button"><i class="icone-redes mt-1 fa-brands fa-whatsapp"></i></a>
+                                <a class="rede-social btn btn-primary rounded-circle ms-4" href="#" role="button"><i class="icone-redes mt-1 fa-brands fa-whatsapp"></i></a>
                               </div>
+                                  <a href="#" class="copyright fw-bold nav-link mt-4">© 2023 Pixel Chef.</a>
                             </div>
                           </div>
                         </div>
-
                       </div>
-          
               </footer>
+                <!-- FOOTER - FIM -->
+
             </div>
         </div>
     </div>
 
-    
-
+    <!-- JAVASCRIPT  -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="../public/js/js-bootstrap/bootstrap.bundle.min.js"></script>
     <script src="../public/js/font-awesome/all.js"></script>
 </body>
