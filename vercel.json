@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "builds":[
+        {
+            "scr": ".inicio.html"
+            "use": "@vercel/node"
+        }
+    ],
+    "routes": [
+        {
+            "scr": "/(.*)"
+            "dest": "/"
+        }
+    ]
+}
