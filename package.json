@@ -2,7 +2,7 @@
     "name": "name",
     "version": "1.0.0",
     "description": "",
-    "main": "/inicio.html",
+    "main": "/backoffice/view/inicio.html",
     "type": "commonjs",
     "engines": {
         "node": "18.x"
