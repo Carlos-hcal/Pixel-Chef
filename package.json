@@ -2,14 +2,14 @@
     "name": "name",
     "version": "1.0.0",
     "description": "",
-    "main": "inicio.html",
+    "main": "/inicio.html",
     "type": "commonjs",
     "engines": {
         "node": "18.x"
     },
 
     "scripts": {
-        "start": "node inicio.html",
+        "start": "node /inicio.html",
         "test": "echo \"error: no test specified\" && exit 1",
         "dev": "nodemon"
     },
