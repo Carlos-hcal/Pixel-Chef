@@ -19,3 +19,22 @@
     height: auto;
     margin-bottom: 4%;
 }
+
+.carousel-control-next, .carousel-control-prev{
+    position: absolute;
+    top: 0px;
+    bottom: 12%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: 100;
+    transition: opacity .15s ease;
+}
+
