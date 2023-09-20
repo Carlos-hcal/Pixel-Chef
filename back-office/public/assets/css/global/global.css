@@ -3,8 +3,6 @@ body{
     font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
 }
 
-/* SCROLLBAR  */
 body::-webkit-scrollbar {
-    width: 0px;               
+    width: 0px;               /* width of the entire scrollbar */
   }
-

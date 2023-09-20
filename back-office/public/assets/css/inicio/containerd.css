@@ -11,9 +11,6 @@ h2{
     color: #ffffff;
     font-size: 2rem;
 }
-.nerd{
-    width: 30%;
-}
 
 /* BOTÂO PLAY  */
 
@@ -25,4 +22,11 @@ h2{
 .containerd a{
     color: #ffffff;
     font-size: 2rem;
+}
+
+@media screen and (max-width: 476p) {
+
+    img{
+        20px
+    }
 }
