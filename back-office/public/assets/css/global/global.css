@@ -3,9 +3,8 @@ body{
     font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
 }
 
-
-
-/* body{
-    background: #161616;
-} */
+/* SCROLLBAR  */
+body::-webkit-scrollbar {
+    width: 0px;               
+  }
 
