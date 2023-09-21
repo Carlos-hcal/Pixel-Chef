@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="x-ic" href="back-office/public/assets/img/Pixelchefimg.svg">
+    <link rel="shortcut icon" type="x-ic" href="back-office/public/assets/img/Icon-Pixel-Chef.svg">
   
     <!-- Bootstrap - css -->
     <link rel="stylesheet" type="text/css" href="/back-office/public/assets/bootstrap-5/css-bootstrap/bootstrap.min.css">
@@ -26,109 +26,263 @@
 <link rel="stylesheet" href="/back-office/public/assets/css/font-awesome/all.min.css">
 </head>
 
-<title>Pixel Chef - Inicio</title>
+<title>Inicio - Pixel Chef</title>
 
 <body>
             <div class="col-12">
 
               <!-- NAVBAR - INICIO -->
-                <header class=" container-fluid header border-bottom border-3 border-white">
-                    <nav class=" navbar navbar-expand-lg">
-                            <a class="logo navbar-brand ms-4" href="#">
-                             <img class="mb-0 figure-img img-fluid" src="/back-office/public/assets/img/Logo.svg" alt="">
-                            </a>
-                            <button class="border-white border-2 sanduiche me-5 navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <header class="container-fluid header border-bottom border-3 border-white">
+                      <nav class=" navbar navbar-expand-lg">
+                          <picture class="logo navbar-brand ms-4" href="#">
+                              <img class="mb-0 figure-img img-fluid" src="/back-office/public/assets/img/Logo.svg" alt="">
+                          </picture>
+                          <button class="border-white border-2 sanduiche me-5 navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                               <span class="navbar-toggler-icon icon-bar"></span>
-                            </button>
+                          </button>
                           <div class="justify-content-end collapse navbar-collapse" id="navbarSupportedContent">
-                            <div class="navbar-nav nav-underline me-5">  
-                                <a class="nav-item text-light nav-link active" aria-current="page" href="/inicio.html">INICIO</a>
-                                <a class="nav-item text-light nav-link" aria-current="page" href="/back-office/view/player.html">PLAYER</a>                  
-                                <a class="nav-item text-light nav-link" aria-current="page" href="/back-office/view/projetos.html">PROJETOS</a>                      
-                                <a class="nav-item text-light nav-link" aria-current="page" href="/back-office/view/contato.html">CONTATO</a>                 
-                            </div>
+                              <ul class="navbar-nav nav-underline me-5">  
+                                  <li><a class="branco text-light nav-item nav-link active" aria-current="page" href="/inicio.html">INICIO</a>
+                                  <li><a class="branco nav-item nav-link" aria-current="page" href="/back-office/view/player.html">PLAYER</a></li>               
+                                  <li><a class="branco nav-item nav-link" aria-current="page" href="/back-office/view/projetos.html">PROJETOS</a></li>                     
+                                  <li><a class="branco nav-item nav-link" aria-current="page" href="/back-office/view/contato.html">CONTATO</a></li>          
+                              </ul>
+                          </div>  
                       </nav>
-              </header>
+                  </header>
               <!-- NAVBAR - FIM  -->
           
+              <main>
               <!-- CONTAINER UM - INICIO  -->
-              <section class="containerd pt-5 pe-5 ps-5 container-fluid">
-                        <div class="row g-0">
-                          <div class="col-sm-8 f col-lg-8">
-                            <div class="card-body ps-5">
-                              <h2 class="card-title fw-bold text-light">Saudações</h2>
-                              <h3 class="card-text fw-bold text-light">bem vindos ao nosso site! <br> Me chamo Carlos, sou criador do Pixel Chef. Aqui apresento um <br> pouco do meu trabalho e hobbies ...</h3>
-                              <a class="play btn btn-large fw-bold pe-5 ps-5" type="button">PLAY</a>
-                            </div>
-                          </div>
-                          <div class="col-sm-4 col-lg-4 pt-5 pe-5">
-                            <img src="back-office/public/assets/img/nerd.svg" class="img-fluid rounded-start" alt="...">
-                          </div>
+                  <section class="containerd text-center container-fluid border-bottom border-3 border-white">
+                      <div class="col-sm-12 col-md-12">
+                        <div class="letras col-sm-2 col-md-12">
+                            <a class=" play btn btn-primary btn-sm fw-bold" type="button">PLAY</a>
                         </div>
-              </section>
+                        <picture class=" pt-5">
+                          <img src="back-office/public/assets/img/nerd-banner.png" class="img-fluid nerdi " alt="...">
+                        </picture>
+                      </div>
+                  </section>
               <!-- CONTAINER UM - FIM  -->
-              
-              <!-- CAROUSEL - INICIO  -->
-              <div class="destaques text-center ">
-                  <div class="col-12">
-                    <div id="myCarousel" class="carousel carousel-dark slide mt-3" data-bs-ride="carousel">
-                   
-                      <!-- Indicators -->
-                        <div class="carousel-indicators">
-                          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        </div>
                 
-                        <!-- Slides -->
-                        <div class="carousel-inner ">
+              <!-- CAROUSEL - INICIO  -->
+
+              <section class="carousel border-bottom border-3 border-white ">
+                  <div class="col-12">
+                    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-ride="carousel">
+
+                      <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      </div>
+    
+                        <div class="carousel-inner container">
                             <div class="carousel-item active">
-                                <a class="" href="pagina1.html"><img src="/back-office/public/assets/img/Root.svg" alt="Root"></a>
-                                <a class="" href="pagina2.html"><img  src="/back-office/public/assets/img/Hollow Knight.svg" alt="HK"></a>
-                                <a class="" href="pagina3.html"><img src="/back-office/public/assets/img/Smart Universe.svg" alt="SM"></a>
+                                <div class="row mt-5 mb-5">
+    
+                                    <div class="col-md-4">
+                                      <div class="card">
+                                        <img src="back-office/public/assets/img/banner-root.png" class="card-img-top" alt="...">
+                                        <div class="card-body text-center">
+                                          <h5 class="card-title fw-bold mb-4">Hollow Knigth</h5>
+                                          <p class="card-text fw-bold mb-4">Forje seu caminho em Hollow Knight! Uma aventura de ação épica em um vasto reino arruinado de insetos e heróis. Explore cavernas serpenteantes, lute contra criaturas malignas e alie-se a insetos bizarros num estilo clássico 2D desenhado à mão..</p>
+                                          <div class="">
+                                            <span class="badge btn btn-sucess">SOULSLIKE</span>
+                                            <span class="badge btn btn-sucess">PLATAFORMA</span>
+                                            <span class="badge btn btn-sucess">2D</span>
+                                            <span class="badge btn btn-sucess">DIFICIL</span>
+                                          </div>
+                                          <div class="mt-4">
+                                            <a href="#" class="btn btn btn-dark fw-bold">ACESSAR</a>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                      <div class="card">
+                                        <img src="back-office/public/assets/img/banner-root.png" class="card-img-top" alt="...">
+                                        <div class="card-body text-center">
+                                          <h5 class="card-title fw-bold mb-4">Hollow Knigth</h5>
+                                          <p class="card-text fw-bold mb-4">Forje seu caminho em Hollow Knight! Uma aventura de ação épica em um vasto reino arruinado de insetos e heróis. Explore cavernas serpenteantes, lute contra criaturas malignas e alie-se a insetos bizarros num estilo clássico 2D desenhado à mão..</p>
+                                          <div class="">
+                                            <span class="badge btn btn-sucess">SOULSLIKE</span>
+                                            <span class="badge btn btn-sucess">PLATAFORMA</span>
+                                            <span class="badge btn btn-sucess">2D</span>
+                                            <span class="badge btn btn-sucess">DIFICIL</span>
+                                          </div>
+                                          <div class="mt-4">
+                                            <a href="#" class="btn btn btn-dark fw-bold">ACESSAR</a>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                      <div class="card">
+                                        <img src="back-office/public/assets/img/banner-root.png" class="card-img-top" alt="...">
+                                        <div class="card-body text-center">
+                                          <h5 class="card-title fw-bold mb-4">Hollow Knigth</h5>
+                                          <p class="card-text fw-bold mb-4">Forje seu caminho em Hollow Knight! Uma aventura de ação épica em um vasto reino arruinado de insetos e heróis. Explore cavernas serpenteantes, lute contra criaturas malignas e alie-se a insetos bizarros num estilo clássico 2D desenhado à mão..</p>
+                                          <div class="">
+                                            <span class="badge btn btn-sucess">SOULSLIKE</span>
+                                            <span class="badge btn btn-sucess">PLATAFORMA</span>
+                                            <span class="badge btn btn-sucess">2D</span>
+                                            <span class="badge btn btn-sucess">DIFICIL</span>
+                                          </div>
+                                          <div class="mt-4">
+                                            <a href="#" class="btn btn btn-dark fw-bold">ACESSAR</a>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="carousel-item ">
-                                <a class="" href="pagina1.html"><img src="/back-office/public/assets/img/Pixelchefimg.svg" alt="HK"></a>
-                                <a class="" href="pagina2.html"><img src="/back-office/public/assets/img/Em breve.svg" alt="HK"></a>
-                                <a class="" href="pagina3.html"><img src="/back-office/public/assets/img/Em breve.svg" alt="HK"></a>
+
+                            <div class="carousel-item">
+                                <div class="row mt-5 mb-5">
+                                    <div class="col-md-4">
+                                      <div class="card">
+                                        <img src="back-office/public/assets/img/banner-root.png" class="card-img-top" alt="...">
+                                        <div class="card-body text-center">
+                                          <h5 class="card-title fw-bold mb-4">Hollow Knigth</h5>
+                                          <p class="card-text fw-bold mb-4">Forje seu caminho em Hollow Knight! Uma aventura de ação épica em um vasto reino arruinado de insetos e heróis. Explore cavernas serpenteantes, lute contra criaturas malignas e alie-se a insetos bizarros num estilo clássico 2D desenhado à mão..</p>
+                                          <div class="">
+                                            <span class="badge btn btn-sucess">SOULSLIKE</span>
+                                            <span class="badge btn btn-sucess">PLATAFORMA</span>
+                                            <span class="badge btn btn-sucess">2D</span>
+                                            <span class="badge btn btn-sucess">DIFICIL</span>
+                                          </div>
+                                          <div class="mt-4">
+                                            <a href="#" class="btn btn btn-dark fw-bold">ACESSAR</a>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                      <div class="card">
+                                        <img src="back-office/public/assets/img/banner-root.png" class="card-img-top" alt="...">
+                                        <div class="card-body text-center">
+                                          <h5 class="card-title fw-bold mb-4">Hollow Knigth</h5>
+                                          <p class="card-text fw-bold mb-4">Forje seu caminho em Hollow Knight! Uma aventura de ação épica em um vasto reino arruinado de insetos e heróis. Explore cavernas serpenteantes, lute contra criaturas malignas e alie-se a insetos bizarros num estilo clássico 2D desenhado à mão..</p>
+                                          <div class="">
+                                            <span class="badge btn btn-sucess">SOULSLIKE</span>
+                                            <span class="badge btn btn-sucess">PLATAFORMA</span>
+                                            <span class="badge btn btn-sucess">2D</span>
+                                            <span class="badge btn btn-sucess">DIFICIL</span>
+                                          </div>
+                                          <div class="mt-4">
+                                            <a href="#" class="btn btn btn-dark fw-bold">ACESSAR</a>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                      <div class="card">
+                                        <img src="back-office/public/assets/img/banner-root.png" class="card-img-top" alt="...">
+                                        <div class="card-body text-center">
+                                          <h5 class="card-title fw-bold mb-4">Hollow Knigth</h5>
+                                          <p class="card-text fw-bold mb-4">Forje seu caminho em Hollow Knight! Uma aventura de ação épica em um vasto reino arruinado de insetos e heróis. Explore cavernas serpenteantes, lute contra criaturas malignas e alie-se a insetos bizarros num estilo clássico 2D desenhado à mão..</p>
+                                          <div class="">
+                                            <span class="badge btn btn-sucess">SOULSLIKE</span>
+                                            <span class="badge btn btn-sucess">PLATAFORMA</span>
+                                            <span class="badge btn btn-sucess">2D</span>
+                                            <span class="badge btn btn-sucess">DIFICIL</span>
+                                          </div>
+                                          <div class="mt-4">
+                                            <a href="#" class="btn btn btn-dark fw-bold">ACESSAR</a>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
                             </div>
                             <div class="carousel-item">
-                                <a class="" href="pagina1.html"><img src="/back-office/public/assets/img/Em breve.svg" alt="SM"></a>
-                                <a class="" href="pagina2.html"><img src="/back-office/public/assets/img/Em breve.svg" alt="SM"></a>
-                                <a class="" href="pagina3.html"><img src="/back-office/public/assets/img/Em breve.svg" alt="SM"></a>
+                                <div class="row mt-5 mb-5">
+                                    <div class="col-md-4">
+                                      <div class="card">
+                                        <img src="back-office/public/assets/img/banner-root.png" class="card-img-top" alt="...">
+                                        <div class="card-body text-center">
+                                          <h5 class="card-title fw-bold mb-4">Hollow Knigth</h5>
+                                          <p class="card-text fw-bold mb-4">Forje seu caminho em Hollow Knight! Uma aventura de ação épica em um vasto reino arruinado de insetos e heróis. Explore cavernas serpenteantes, lute contra criaturas malignas e alie-se a insetos bizarros num estilo clássico 2D desenhado à mão..</p>
+                                          <div class="">
+                                            <span class="badge btn btn-sucess">SOULSLIKE</span>
+                                            <span class="badge btn btn-sucess">PLATAFORMA</span>
+                                            <span class="badge btn btn-sucess">2D</span>
+                                            <span class="badge btn btn-sucess">DIFICIL</span>
+                                          </div>
+                                          <div class="mt-4">
+                                            <a href="#" class="btn btn btn-dark fw-bold">ACESSAR</a>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                      <div class="card">
+                                        <img src="back-office/public/assets/img/banner-root.png" class="card-img-top" alt="...">
+                                        <div class="card-body text-center">
+                                          <h5 class="card-title fw-bold mb-4">Hollow Knigth</h5>
+                                          <p class="card-text fw-bold mb-4">Forje seu caminho em Hollow Knight! Uma aventura de ação épica em um vasto reino arruinado de insetos e heróis. Explore cavernas serpenteantes, lute contra criaturas malignas e alie-se a insetos bizarros num estilo clássico 2D desenhado à mão..</p>
+                                          <div class="">
+                                            <span class="badge btn btn-sucess">SOULSLIKE</span>
+                                            <span class="badge btn btn-sucess">PLATAFORMA</span>
+                                            <span class="badge btn btn-sucess">2D</span>
+                                            <span class="badge btn btn-sucess">DIFICIL</span>
+                                          </div>
+                                          <div class="mt-4">
+                                            <a href="#" class="btn btn btn-dark fw-bold">ACESSAR</a>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                      <div class="card">
+                                        <img src="back-office/public/assets/img/banner-root.png" class="card-img-top" alt="...">
+                                        <div class="card-body text-center">
+                                          <h5 class="card-title fw-bold mb-4">Hollow Knigth</h5>
+                                          <p class="card-text fw-bold mb-4">Forje seu caminho em Hollow Knight! Uma aventura de ação épica em um vasto reino arruinado de insetos e heróis. Explore cavernas serpenteantes, lute contra criaturas malignas e alie-se a insetos bizarros num estilo clássico 2D desenhado à mão..</p>
+                                          <div class="">
+                                            <span class="badge btn btn-sucess">SOULSLIKE</span>
+                                            <span class="badge btn btn-sucess">PLATAFORMA</span>
+                                            <span class="badge btn btn-sucess">2D</span>
+                                            <span class="badge btn btn-sucess">DIFICIL</span>
+                                          </div>
+                                          <div class="mt-4">
+                                            <a href="#" class="btn btn btn-dark fw-bold">ACESSAR</a>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                
-                        <!-- Controls -->
-                        <div class="carousel-control">
-                          <button class=" carousel-control-prev" type="button" data-bs-target="#myCarousel" role="button" data-bs-slide="prev">
-                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                              <span class="visually-hidden">Anterior</span>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
                           </button>
-                          <button class=" carousel-control-next" type="button" data-bs-target="#myCarousel" role="button" data-bs-slide="next">
-                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                              <span class="visually-hidden">Próximo</span>
+                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
                           </button>
                         </div>
-                    </div>
                 </div>
-                </div>
-                <!-- CAROUSEL - FIM  -->
 
-                <!-- CONTAINER DOIS - INICIO  -->
-              <section class="dormindo pt-3 container-fluid">
-                  <div class="row g-0">
-                    <div class="col-md-4">
-                      <img src="back-office/public/assets/img/dormindo.svg" class="img-fluid rounded-start" alt="...">
-                    </div>
-                    <div class="col-md-8">
-                      <div class="card-body">
-                        <h2 class="card-text fw-bold text-light">Eu realmente não faço ideia do que escrever aqui, mas eu <br> tenho certeza que alguma hora vamos achar alguma <br> coisa muito interessante, que chame muita atenção.</h2>
-                      </div>
-                    </div>
-                  </div>
+
               </section>
-                <!-- CONTAINER DOIS - FIM  -->
+
+                
+
+              <!-- CAROUSEL - FIM  -->
+                  
+
+              <!-- CONTAINER DOIS - INICIO  -->
+                  <section class="dormindo pt-3 container-fluid pt-5 pe-5 ps-5">
+                          <div class="col-md-12">
+                              <img src="back-office/public/assets/img/dormindo.png" class="img-fluid" alt="...">
+                          </div>
+                  </section>
+              <!-- CONTAINER DOIS - FIM  -->
+              </main>
 
                 <!-- FOOTER - INICIO -->
               <footer class="col-12">
@@ -138,16 +292,16 @@
                              </a>
                              <div class="" >
                               <div class="mt-3 navbar-nav list-group-horizontal justify-content-center">
-                                <a class="nav-item text-light nav-link" aria-current="page" href="/inicio.html">INICIO</a>
-                                <a class="nav-item text-light nav-link ms-4" aria-current="page" href="/back-office/view/player.html">PLAYER</a>                  
-                                <a class="nav-item text-light nav-link ms-4" aria-current="page" href="/back-office/view/projetos.html">PROJETOS</a>                      
-                                <a class="nav-item text-light nav-link ms-4" aria-current="page" href="/back-office/view/contato.html">CONTATO</a>  
+                                <a class="branco nav-item nav-link" aria-current="page" href="/inicio.html">INICIO</a>
+                                <a class="branco nav-item nav-link ms-4" aria-current="page" href="/back-office/view/player.html">PLAYER</a>                  
+                                <a class="branco nav-item nav-link ms-4" aria-current="page" href="/back-office/view/projetos.html">PROJETOS</a>                      
+                                <a class="branco nav-item  nav-link ms-4" aria-current="page" href="/back-office/view/contato.html">CONTATO</a>  
                               </div>
 
                               <div class="mt-5 navbar-nav list-group-horizontal justify-content-center">
-                                <a class="rede-social btn btn-primary rounded-circle me-4" href="#" role="button"><i class="icone-redes mt-1 fa-brands fa-linkedin"></i></a>
-                                <a class="rede-social btn btn-primary rounded-circle" href="#" role="button"><i class="icone-redes mt-1 fa-brands fa-github"></i></a>
-                                <a class="rede-social btn btn-primary rounded-circle ms-4" href="#" role="button"><i class="icone-redes mt-1 fa-brands fa-whatsapp"></i></a>
+                                <a class="branco rede-social btn btn-danger rounded-circle me-4" href="#" role="button"><i class="icone-redes mt-1 fa-brands fa-linkedin"></i></a>
+                                <a class="branco rede-social btn btn-danger rounded-circle" href="#" role="button"><i class="icone-redes mt-1 fa-brands fa-github"></i></a>
+                                <a class="branco rede-social btn btn-danger rounded-circle ms-4" href="#" role="button"><i class="icone-redes mt-1 fa-brands fa-whatsapp"></i></a>
                               </div>
                                   <a href="#" class="copyright fw-bold nav-link mt-4">© 2023 Pixel Chef.</a>
                             </div>

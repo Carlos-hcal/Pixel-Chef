@@ -1,0 +1,26 @@
+.projetos{
+    background: linear-gradient(111deg, rgba(44, 0, 71, 0.95) 5.86%, #12345D 47.67%, #419077 90.46%, #79FF97 106.62%);
+}
+
+.card-img-top{
+    border-bottom: 5px solid #0C1033;
+    max-width: 530px;
+}
+
+.card{
+    border: none;
+    border-radius: 5px 5px 0px 0px;
+    -webkit-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.4);
+    box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.4);
+}
+
+.btn-dark{
+    width: 80%;
+    border-radius: 0;
+    background-color: #0C1033;
+}
+
+.btn-sucess{
+    background-color: #35CB56;
+}
