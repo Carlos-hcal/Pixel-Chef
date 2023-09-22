@@ -2,3 +2,21 @@
     background: linear-gradient(225deg, rgba(121, 255, 151, 0.94) 0%, rgb(8, 1, 20) 100%);
     border-top: solid 3px #0C1033;
 }
+
+@media (max-width: 575px) { 
+
+    .dormindoo{
+        width: 100%;
+        margin-top: -25px;
+    }
+    
+  }
+
+  @media (min-width: 575px) { 
+
+    .dormindoo{
+        width: 70%;
+    }
+    
+  }
+
