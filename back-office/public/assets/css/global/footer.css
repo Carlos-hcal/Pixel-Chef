@@ -34,7 +34,7 @@
   @media (max-width: 575px) { 
 
     .logo-footer{
-        width: 8rem;
+        width: 10rem;
     }
 
     .btn-social{
@@ -44,26 +44,26 @@
 
     .links{
         margin-top: -20px;
-        font-size: 10px;
+        font-size: 12px;
       }
 
     .rede-social{
         justify-content: center;
         padding-top: 4px;
-        padding-left: 10px;
-    margin-bottom: -20px;
-        width: 2rem;
-        height: 2rem;
+        padding-left: 11px;
+        padding-top: 5px;
+        width: 2.5rem;
+        height: 2.5rem;
         background-color: #222326;
         border: none;
     }
 
     .icone-redes{
-        font-size: 100%;
+        font-size: 130%;
     }
 
     .github{
-        padding-left: 9px;
+        padding-left: 10px;
     }
 
 }
