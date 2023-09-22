@@ -22,3 +22,11 @@
 .me-6{
     margin-right: 6rem ;
 }
+
+ /* BOTÃO SOCIAL */
+ .btn-social{
+    color: #ffffff;
+  }
+  .btn-social:hover{
+    background-color: #ffffff;
+  }

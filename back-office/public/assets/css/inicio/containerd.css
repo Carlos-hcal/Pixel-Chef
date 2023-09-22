@@ -2,6 +2,7 @@
     width: 100%;
     background: linear-gradient(135deg, #C8FFE8 0%, rgba(16, 238, 145, 0.271) 100%);
     border-bottom: solid 3px #0C1033;
+    z-index: 1;
 }
 
 /* BOTÂO PLAY  */
@@ -14,9 +15,9 @@
 }
 
 .letras{
-    display: flex;
-    justify-content:;
-    top: 10rem;
+    position: relative;
+    top: 19rem;
+    right: 30rem;
     font-size: 30px;
 }
 
@@ -29,14 +30,19 @@
     width: 80%;
 }
 
-/* @media screen and (min-width: 476p) {
-
-    .nerdi{
-        width: 147px;
-        height: 170px;
-    }
-
-    .letra{
-        font-size: 12px;
-    }
-} */
+@media (max-width: 575.98px) { 
+    .btn-primary{
+      background-color: #5AFF7F;
+      border-radius: 15px;
+      border: 1px solid #fff;
+      width: 12rem;
+  }
+  
+    .letras{
+      position: relative;
+      top: 10rem ;
+      right:58rem ;
+      font-size: 30px;
+      z-index: 0;
+  }
+   }
