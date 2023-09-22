@@ -14,9 +14,6 @@
 }
 
 .letras{
-    position: relative;
-    top: 19rem;
-    right: 30rem;
     font-size: 30px;
 }
 
@@ -26,14 +23,18 @@
 }
 
 .nerdi{
-    width: 80%;
+    width: 90%;
 }
 
 @media (max-width: 575px) { 
 
     .nerdi{
-        width: 100%;
-        margin-top: -35px;
+        width: 100rem;
+
+    }
+    
+    .btn-primary{
+        /* margin-bottom: 10rem; */
     }
     
   }
