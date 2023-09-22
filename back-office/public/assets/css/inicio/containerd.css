@@ -1,6 +1,7 @@
 .containerd{
     width: 100%;
     background: linear-gradient(135deg, #C8FFE8 0%, rgba(16, 238, 145, 0.271) 100%);
+    border-bottom: solid 3px #0C1033;
 }
 
 /* BOTÂO PLAY  */

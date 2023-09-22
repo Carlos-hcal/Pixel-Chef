@@ -7,9 +7,26 @@ body::-webkit-scrollbar {
     width: 0px;               /* width of the entire scrollbar */
   }
 
-  .branco{
+  /* BOTÃO LINKEDIN  */
+  .btn-zap{
     color: #ffffff;
   }
-  .branco:hover{
-    color: #41ff41;
+  .btn-zap:hover{
+    background-color: #00ff00;
+  }
+  
+    /* BOTÃO GITHUB  */
+  .btn-zap{
+    color: #ffffff;
+  }
+  .btn-zap:hover{
+    background-color: #563D7C;
+  }
+
+  /* BOTÃO WHATSAPP  */
+  .btn-zap{
+    color: #ffffff;
+  }
+  .btn-zap:hover{
+    background-color: #00ff00;
   }
