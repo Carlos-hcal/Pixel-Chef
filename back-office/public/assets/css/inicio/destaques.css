@@ -7,9 +7,9 @@
     background-color: #0C1033;
 }
 
-.card-img-top{
-  
-}
+.carousel-indicators{
+    margin-bottom: 0;
+    }
 
 .card{
     border: none;
@@ -36,3 +36,22 @@
     transition: opacity .15s ease;
 }
 
+
+@media (max-width: 575px) { 
+
+    .carousel-inner{
+        padding-bottom: 0;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .card-img-top{
+      width: 84%;
+    }
+
+}
+
+@media (min-width:576px) {
+    .card-img-top{
+        width: 91%;
+      }
+}
