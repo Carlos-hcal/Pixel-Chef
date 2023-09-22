@@ -6,6 +6,7 @@
 .realmente{
     display: flex;
    justify-content: center;
+   
 }
 
 @media (max-width: 575px) { 
@@ -14,10 +15,18 @@
         width: 100%;
         margin-top: -25px;
     }
+
+    .realmente>h4{
+        font-size: 15px;
+    }
     
   }
 
 @media (min-width: 575px) { 
+
+    .dormindo{
+        padding: 0;
+    }
 
     .dormindoo{
         width: 65%;

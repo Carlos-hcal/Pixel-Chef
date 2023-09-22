@@ -13,8 +13,9 @@
     width: 12rem;
 }
 
-.letras{
-    font-size: 30px;
+.btn-primary:hover{
+    background-color: #3cc75a;
+    border: 1px solid #fff;
 }
 
 .containerd a{
@@ -22,19 +23,33 @@
     font-size: 2rem;
 }
 
-.nerdi{
+.nerd>img{
     width: 90%;
 }
 
 @media (max-width: 575px) { 
 
-    .nerdi{
+
+    .saudacao>h3{
+        font-size: 18px;
+    }
+    .saudacao>h4{
+        font-size: 16px;
+    }
+
+    .containerd a{
+        color: #ffffff;
+        font-size: 20px;
+        margin-top: -60px;
+    }
+
+    .nerd > img{
         width: 100rem;
 
     }
     
     .btn-primary{
-        /* margin-bottom: 10rem; */
+        width: 10rem;
     }
     
   }
