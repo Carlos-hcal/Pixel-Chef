@@ -1,0 +1,48 @@
+.first-container {
+    height: 576px;
+    width: 100%;
+    background: linear-gradient(102deg, #B5F3DA 0%, #377C72 59.65%, #0D1234 96.42%);
+    display: flex;
+    justify-content: space-around;
+}
+
+.developer-container {
+    margin-left: 64px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.developer {
+    
+}
+
+.text-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.play {
+    width: 200px;
+    height: 48px;
+    border-radius: 16px;
+    border: 1px solid #FFF;
+    background: #85FFA0;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 32px;
+}
+
+.welcome {
+    font-size: 64px;
+}
+
+.other-text {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.figure {
+    display: flex;
+    justify-content: space-around;
+}
