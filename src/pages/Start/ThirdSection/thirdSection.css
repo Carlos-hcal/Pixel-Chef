@@ -1,0 +1,22 @@
+.third-container{
+    width: 100%;
+    height: 608px;
+    background: linear-gradient(80deg, #090C25 10.09%, #0F182B 26.79%, #203B3E 49.04%, #366555 66.3%, #56AD75 90.26%);
+    display: flex;
+    justify-content: space-around;
+}
+
+.mom {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.modelo-container {
+    display: flex;
+    align-items: end;
+}
+
+.third-other-text {
+    font-size: 32px;
+}
