@@ -1,0 +1,18 @@
+.second-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 240px;
+    border-top: 5px solid #0C1033;
+    border-bottom: 5px solid #0C1033;
+    background: #FFF;
+}
+
+.arrow_left {
+    height: 64px;
+}
+
+.arrow_right {
+    height: 64px;
+}
