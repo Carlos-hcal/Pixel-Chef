@@ -1,0 +1,30 @@
+.App-header {
+    align-items: center;
+    background: linear-gradient(268deg, #0C1033 1.6%, #070A20 45.66%, #000 127.65%);;
+    border-bottom: 1px solid #FFF;
+    display: flex;
+    height:80px;
+    justify-content: space-around;    
+    width: 100%;
+}
+
+.links {
+    display: flex;
+    list-style: none;
+    padding-left: 48px;
+    text-decoration: none;
+}
+
+.link {
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #85FFA0;
+}
+
+.pages {
+    display: flex;
+}
