@@ -1,0 +1,45 @@
+.App-footer{
+    justify-content: center;    
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    height: 320px;
+    border-top: 1px solid #FFF;
+    background: linear-gradient(118deg, #000 -29.35%, #040511 61.43%);
+}
+
+.links-footer{
+    padding: 24px;
+    padding-top: 40px;
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+
+.link-footer {
+    text-decoration: none;
+}
+
+.link-footer:hover {
+    color: #85FFA0;
+}
+
+.PaginasFooter{
+    display: flex;
+}
+
+.icones{
+    display: flex;
+}
+.icones li{
+    list-style: none;
+    border: #040511;
+    margin: 24px;
+}
+
+small{
+    color: #49494A;
+    font-weight: bold;
+    font-size: 16px;
+}
