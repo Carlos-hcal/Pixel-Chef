@@ -1,7 +1,7 @@
 .personhood-box {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    width: 860px;
 }
 
 .cards{
