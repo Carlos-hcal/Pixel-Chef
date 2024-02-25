@@ -1,0 +1,16 @@
+.body-projects {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 120vh;
+    background: linear-gradient(145deg, rgba(44,0,71,0.9472163865546218) 0%, rgba(18,52,93,1) 30%, rgba(65,144,119,1) 71%, rgba(121,255,151,1) 100%);
+}
+
+.title {
+    font-family: khand;
+    margin: 64px 0px 32px 0px;
+    font-size: 48px;
+    font-weight: 400;
+}
