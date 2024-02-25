@@ -9,6 +9,7 @@
     align-items: center;
     border-radius: 20px;
     margin-bottom: 64px;
+    box-shadow: 5px 5px 5px #0000006c;
 }
 
 #developer {
