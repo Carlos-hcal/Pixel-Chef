@@ -17,6 +17,7 @@
 }
 
 .badge {
+    align-items: center;
     display: flex;
     justify-content: center;
     width: 364px;
@@ -36,25 +37,79 @@
 
 #react {
     background-color: #48D0F8;
+    transition: 0.5s;
 }
+#react:hover {
+    transition: 0.5s;
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
 #ts {
     background-color: #2D79C7;
 }
+#ts:hover {
+    transition: 0.5s;
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
 #sass {
     background-color: #CF649A;
 }
+#sass:hover {
+    transition: 0.5s;
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
 #php {
     background-color: #777BB3;
 }
+#php:hover {
+    transition: 0.5s;
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
 #java {
     background-color: #EB8F1D;
 }
+#java:hover {
+    transition: 0.5s;
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
 #next {
     background-color: #000000;
 }
+#next:hover {
+    transition: 0.5s;
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
 #angular {
     background-color: #BF002E;
 }
+#angular:hover {
+    transition: 0.5s;
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
 #C {
     background-color: #633FDA;
+}
+#C:hover {
+    transition: 0.5s;
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+.icon {
+    margin: 5px 0px 0px 8px;
+    font-size: 28px;
+    
 }
