@@ -1,0 +1,60 @@
+.moveset-box {
+    background-color: #ffffff;
+    width: 860px;
+    display: flex;
+    justify-content: space-around;
+    margin: 48px 0px 48px 0px;
+    padding: 16px;
+    border-radius: 20px;
+}
+
+.moveset {
+    /* width: 60%; */
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    list-style: none;
+}
+
+.badge {
+    display: flex;
+    justify-content: center;
+    width: 364px;
+    border-radius: 10px;
+    padding: 6px;
+    font-size: 24px;
+    margin: 10px;
+    font-weight: 500;
+}
+
+#move { 
+    background-color: #0C1033;
+    font-size: 32px;
+    padding: 10px;
+    font-weight: 700;
+}
+
+#react {
+    background-color: #48D0F8;
+}
+#ts {
+    background-color: #2D79C7;
+}
+#sass {
+    background-color: #CF649A;
+}
+#php {
+    background-color: #777BB3;
+}
+#java {
+    background-color: #EB8F1D;
+}
+#next {
+    background-color: #000000;
+}
+#angular {
+    background-color: #BF002E;
+}
+#C {
+    background-color: #633FDA;
+}
