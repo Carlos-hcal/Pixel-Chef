@@ -1,0 +1,1 @@
+export type buttonAcess = "whatsapp" | "github" | "linkedin";
