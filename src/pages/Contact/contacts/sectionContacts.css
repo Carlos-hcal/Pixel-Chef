@@ -1,0 +1,60 @@
+.box-contacts {
+    margin-top: 32px;
+    display: flex;
+    gap: 24px;
+}
+
+.contact-figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-radius: 10px;
+    margin: 16px 0px 48px 0px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#whatsapp {
+    padding: 10px;
+    background-color: #045F5C;
+    transition: 0.5s;
+    outline: #045F5C;
+}
+
+#whatsapp:hover {
+    outline: 1px solid #045F5C;
+    color: #045F5C;
+    background-color: #ffffff;
+    transition: 0.5s;
+}
+
+#github {
+    padding: 10px;
+    background-color: #7F44C5;
+    transition: 0.5s;
+}
+#github:hover {
+    outline: 1px solid #7F44C5;
+    color: #7F44C5;
+    background-color: #ffffff;
+    transition: 0.5s;
+}
+
+#linkedin {
+    padding: 10px;
+    background-color: #0A66C2;
+    transition: 0.5s;
+}
+#linkedin:hover {
+    outline: 1px solid #0A66C2;
+    color: #0A66C2;
+    background-color: #ffffff;
+    transition: 0.5s;
+}
