@@ -1,0 +1,12 @@
+.body-contact {
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(1,107,93,0.58) 100%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-contact {
+    margin-top: 48px;
+    font-family: khand;
+}
