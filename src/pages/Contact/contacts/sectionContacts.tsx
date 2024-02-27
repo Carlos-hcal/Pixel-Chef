@@ -4,6 +4,8 @@ import ButtonAcess from '../../../components/buttonAcess/buttonAcess'
 import Whatsapp from "./src/msgwhats.png"
 import Github from "./src/githublink.png"
 import Linkedin from "./src/linkedinlink.png"
+import { FaWhatsapp } from "react-icons/fa";
+
 
 function SectionContacts() {
   return (
@@ -31,7 +33,7 @@ function SectionContacts() {
       <figure className='contact-figure'>
         <img src={Linkedin} alt="Linkedin" />
           <ButtonAcess 
-          href="https://github.com/Carlos-hcal"
+          href="https://www.linkedin.com/in/carlos-henrique-20b78a238/"
           id="linkedin"
           className="button"
           label="Linkedin"
