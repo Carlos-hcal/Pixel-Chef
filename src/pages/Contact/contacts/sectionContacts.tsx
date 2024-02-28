@@ -13,6 +13,7 @@ function SectionContacts() {
       <figure className='contact-figure'>
         <img src={Whatsapp} alt="Whatsapp" />
           <ButtonAcess 
+          target="_blank"
           href="https://github.com/Carlos-hcal"
           id="whatsapp"
           className="button"
@@ -23,6 +24,7 @@ function SectionContacts() {
       <figure className='contact-figure'>
         <img src={Github} alt="Github" />
           <ButtonAcess
+          target="_blank"
           href="https://github.com/Carlos-hcal"
           id="github"
           className="button"
@@ -33,6 +35,7 @@ function SectionContacts() {
       <figure className='contact-figure'>
         <img src={Linkedin} alt="Linkedin" />
           <ButtonAcess 
+          target="_blank"
           href="https://www.linkedin.com/in/carlos-henrique-20b78a238/"
           id="linkedin"
           className="button"
