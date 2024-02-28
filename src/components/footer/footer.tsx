@@ -6,7 +6,6 @@ import Whatsapp from './src/Whatsapp.svg'
 import { Link } from "react-router-dom";
 
 const Footer = () => {
-    const icones = [Linkedin, Github, Whatsapp]
 
     return (
       <footer className='App-footer'>
@@ -18,11 +17,21 @@ const Footer = () => {
           <li className='links-footer'><Link to="/contato" className="link-footer">CONTATO</Link></li>
         </ul>
         <ul className='icones'>
-          {icones.map( (icone) => (
-            <li>
-              <img src={icone}></img>
-            </li>
-          ) ) }
+          <li>
+            <a href="https://www.linkedin.com/in/carlos-henrique-20b78a238/" target="_blank">
+              <img src={Linkedin} alt="Linkedin" />
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/Carlos-hcal" target="_blank">
+              <img src={Github} alt="Github" />
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/Carlos-hcal" target="_blank">
+              <img src={Whatsapp} alt="Whatsapp" />
+            </a>
+          </li>
         </ul>
         <small>© 2023 Pixel Chef.</small>
       </footer>
