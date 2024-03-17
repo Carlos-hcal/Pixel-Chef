@@ -56,15 +56,15 @@
 
 ## Sobre o Projeto
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://www.pixelchef.com.br/)
 
-Criei o site com o intuito de explorar meu conhecimento e compartilhar com quem tiver interesse. O design está sempre tendo atualizações, pois nunca chego a um ponto de "perfeição". Sim, sou meio lunático com isso. Em fim, espero que gostem e não esqueçam de dar uma ⭐ ao projeto (estou tentando conseguir uma conquista no github). Deixo aqui meus agradecimentos a todos que me apoiam ❤️.
+Criei o site com o intuito de explorar meu conhecimento e compartilhar com quem tiver interesse. O design está sempre tendo atualizações, pois nunca chego a um ponto de "perfeição" ( sim, sou meio lunático com isso). Em fim, espero que gostem e não esqueçam de dar uma ⭐ ao projeto (estou tentando conseguir uma conquista no github). Deixo aqui meus agradecimentos a todos que me apoiam ❤️.
 
-- Minha mãe.
+- Minha mãe e olha lá
 
 <p align="right">(<a href="#readme-top">Voltar ao topo</a>)</p>
 
-### Tecnologias:
+### Tecnologias Utilizadas:
 
 - [![React][React.js]][React-url]
 - [![Typescript][Typescript.ts]][Typescript-url]
@@ -134,9 +134,11 @@ Distribuído sob a licença MIT. Consulte `LICENSE.txt` para obter mais informa�
 
 <p align="right">(<a href="#readme-top">Voltar ao topo</a>)</p>
 
-## Contact
+## Contato
 
-Carlos Henrique - [Mandar uma mensagem](https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSMScfpjGgMkwPTWWCGrKctzNQKPJQPWpTGLGqwXDQDQMKxPXrcBrcQjWsTlcLnbbGKMRWxG)
+Gmail - [Enviar proposta, quero dizer mensagem](https://mail.google.com/mail/u/1/#inbox?compose=CllgCJNvvnBHpkDRQzwDkDTmbnpRGsVvRSMbQZwFJkVhGkQsggbBTHSnXjcCnZqZdRkCJHbMsmg)
+
+Instagram - [Visitar](https://www.instagram.com/pixel_chef.ti/?next=%2F)
 
 Link do Projeto: [https://github.com/Carlos-hcal/Pixel-Chef](https://github.com/Carlos-hcal/Pixel-Chef)
 
