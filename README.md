@@ -138,7 +138,7 @@ Distribuído sob a licença MIT. Consulte `LICENSE.txt` para obter mais informa�
 
 Gmail - [Enviar proposta, quero dizer mensagem](https://mail.google.com/mail/u/1/#inbox?compose=CllgCJNvvnBHpkDRQzwDkDTmbnpRGsVvRSMbQZwFJkVhGkQsggbBTHSnXjcCnZqZdRkCJHbMsmg)
 
-Instagram - [Visitar](https://www.instagram.com/pixel_chef.ti/?next=%2F)
+Instagram - [Visitar](https://www.instagram.com/pixel__chef/?next=%2F)
 
 Link do Projeto: [https://github.com/Carlos-hcal/Pixel-Chef](https://github.com/Carlos-hcal/Pixel-Chef)
 
