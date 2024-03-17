@@ -9,7 +9,7 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/Carlos-hcal/Pixel-Chef">
+  <a href="https://github.com/Carlos-hcal/Pixel-Chef" target="_blank">
     <img src="images/Icon.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -18,14 +18,14 @@
   <p align="center">
     Site Oficial
     <br />
-    <a href="https://github.com/Carlos-hcal/Pixel-Chef"><strong>Documentação »</strong></a>
+    <a href="https://github.com/Carlos-hcal/Pixel-Chef" target="_blank"><strong>Documentação »</strong></a>
     <br />
     <br />
-    <a href="https://www.pixelchef.com.br/">Visitar Site</a>
+    <a href="https://www.pixelchef.com.br/" target="_blank">Visitar Site</a>
     ·
-    <a href="https://github.com/Carlos-hcal/Pixel-Chef/issues">Reportar Bug</a>
+    <a href="https://github.com/Carlos-hcal/Pixel-Chef/issues" target="_blank">Reportar Bug</a>
     ·
-    <a href="https://github.com/Carlos-hcal/Pixel-Chef/issues">Request Feature</a>
+    <a href="https://github.com/Carlos-hcal/Pixel-Chef/issues" target="_blank">Request Feature</a>
   </p>
 </div>
 
