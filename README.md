@@ -58,7 +58,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Criei o site com o intuito de explorar meu conhecimento e compartilhar com quem tiver interesse. O design está sempre tendo atualizações, pois nunca chego a um ponto de "perfeição" sim, sou meio lunático com isso. Em fim, espero que gostem e não esqueçam de dar uma ⭐ ao projeto (estou tentando conseguir uma conquista no github). Deixo aqui meus agradecimentos a todos que me apoiam ❤️.
+Criei o site com o intuito de explorar meu conhecimento e compartilhar com quem tiver interesse. O design está sempre tendo atualizações, pois nunca chego a um ponto de "perfeição". Sim, sou meio lunático com isso. Em fim, espero que gostem e não esqueçam de dar uma ⭐ ao projeto (estou tentando conseguir uma conquista no github). Deixo aqui meus agradecimentos a todos que me apoiam ❤️.
 
 - Minha mãe.
 
