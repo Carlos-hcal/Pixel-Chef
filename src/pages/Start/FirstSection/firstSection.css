@@ -1,25 +1,36 @@
 .first-container {
-    height: 576px;
     width: 100%;
-    background: linear-gradient(102deg, #B5F3DA 0%, #377C72 59.65%, #0D1234 96.42%);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    padding-bottom: 192px;
+    padding-top: 96px;
+    z-index: 10;
+    position: relative;
 }
 
-.developer-container {
-    margin-left: 64px;
-    display: flex;
-    align-items: flex-end;
-}
+
 
 .developer {
-    
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.2);
 }
 
 .text-container {
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+
+.welcome {
+    font-size: 64px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.other-text {
+    font-size: 32px;
+    font-weight: 400;
 }
 
 .play {
@@ -33,14 +44,6 @@
     margin-top: 32px;
 }
 
-.welcome {
-    font-size: 64px;
-}
-
-.other-text {
-    font-size: 32px;
-    font-weight: 500;
-}
 
 .figure {
     display: flex;

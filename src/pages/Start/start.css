@@ -1,0 +1,13 @@
+.body-start {
+    background: linear-gradient(180deg, rgba(181,243,218,1) 0%, rgba(55,124,114,1) 33%, rgba(13,18,52,1) 100%);
+    font-family: "League Spartan", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.dashline{
+    position: absolute;
+    left: 580px;
+    top: 83px;
+    z-index: 0;
+    display: flex;
+
+}
