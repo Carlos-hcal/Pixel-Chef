@@ -5,10 +5,6 @@ function ThirdSection() {
 
     return (
         <section className="third-container">
-            <main className="mom">
-                <figure className='modelo-container'>
-                        <img src={modelo} alt="modelo" />
-                </figure>
                 <figcaption className='text-container'>
                     <h3 className='third-other-text'>
                         Eu realmente não faço ideia do que escrever aqui,<br/>
@@ -17,7 +13,9 @@ function ThirdSection() {
                         atenção.
                     </h3>
                 </figcaption>
-            </main>
+                <figure className='modelo-container'>
+                        <img src={modelo} alt="modelo" />
+                </figure>
         </section>
     );
 };
