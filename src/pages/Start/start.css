@@ -4,10 +4,9 @@
 }
 
 .dashline{
-    position: absolute;
-    left: 580px;
-    top: 83px;
-    z-index: 0;
     display: flex;
+    position: absolute;
+    left: 200px;
+    z-index: 0;
 
 }
